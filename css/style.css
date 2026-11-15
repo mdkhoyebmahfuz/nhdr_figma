@@ -1,0 +1,284 @@
+/* ---all common css start here--- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* a{
+    text-decoration: none;
+} */
+ul,
+ol {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  margin: 0 auto;
+  width: 1280px;
+}
+/* ---all common css end here--- */
+/* --nav css start here--- */
+#navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 20px 0;
+  background-color: #101828;
+}
+.nav_wraper {
+  display: flex;
+  align-items: center;
+}
+.menu_user {
+  display: flex;
+  align-items: center;
+  gap: 435px;
+  margin-left: 40px;
+}
+.menu ul {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.menu ul li a {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: all linear 0.3s;
+}
+.menu ul li a:hover {
+  color: #7de226;
+}
+.user {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.login a {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7de226;
+}
+.nav_btn button {
+  padding: 10px 24px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  /* background: linear-gradient(90deg, #599D21 0%, #1797BE 100%); */
+  background-color: rgba(8, 8, 23, 0.781);
+  transition: all linear 0.3s;
+}
+.nav_btn button a {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav_btn button:hover {
+  background: linear-gradient(90deg, #599d21 0%, #1797be 100%);
+}
+
+/* --nav css end here--- */
+/* ----banner css start here ----- */
+#bannerpart {
+  padding: 180px 0;
+  background-image: url(../images/banner.jpg);
+  position: relative;
+}
+.banner_wraper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.baner_heading h1 {
+  margin-top: 136px;
+  font-family: "Krona One", sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 82px;
+  letter-spacing: -2%;
+  width: 619px;
+  color: #ffffff;
+}
+.baner_heading h1 span {
+  /* color: linear-gradient(90deg, #599D21 0%, #1797BE 100%); */
+  color: #7de226;
+}
+.baner_heading p {
+  margin-top: 13px;
+  margin-bottom: 40px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31.5px;
+  width: 619px;
+  color: #fff;
+}
+.baner_heading span {
+  font-weight: 700;
+}
+
+.banner_btn button {
+  padding: 10px 24px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: rgba(8, 8, 23, 0.781);
+  transition: all linear 0.3s;
+}
+.banner_btn button a {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.banner_btn button:hover {
+  background: linear-gradient(90deg, #599d21 0%, #1797be 100%);
+}
+
+.bannerbtn_p {
+  display: flex;
+  gap: 35px;
+  align-items: center;
+}
+.p_link a {
+  color: #fff;
+}
+.p_link a p {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.bannericon_wraper {
+  display: flex;
+  margin-top: 40px;
+  gap: 10px;
+}
+.bannericon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.icon i {
+  color: #34bc7b;
+  font-size: 15px;
+}
+.content h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20.5px;
+  color: #fff;
+}
+
+/* .banner_right{
+    position:relative;
+} */
+.img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.card {
+  position: absolute;
+  left: 80%;
+  bottom: 9%;
+  margin-top: 16px;
+}
+
+.card_wraper {
+  /* position: absolute; */
+  width: 337px;
+  padding: 0px 0px 0px 10px;
+  background-color: rgba(8, 8, 23, 0.781);
+  /* background-color: red; */
+  border: 2px solid rgba(111, 111, 114, 0.521);
+  border-radius: 12px;
+}
+.card_wraper {
+  display: flex;
+  align-items: center;
+}
+.card_left h3 {
+  font-family: "Krona One", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 3px;
+}
+.card_left p {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 18.5px;
+  color: #bebebe;
+  width: 153px;
+  margin-bottom: 16px;
+}
+.cardbtn_icon {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.card_btn button {
+  padding: 4px 16px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  transition: all linear 0.3s;
+  background-color: rgba(8, 8, 23, 0.781);
+}
+.card_btn button:hover {
+  background: linear-gradient(90deg, #599d21 0%, #1797be 100%);
+}
+.card_btn button a {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.card_icon {
+  display: flex;
+  align-items: center;
+}
+.ca_icon i {
+  font-size: 24px;
+  color: #599d21;
+}
+.icon_text h5 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.card_right img {
+  object-fit: cover;
+}
+/* ----banner css end here ----- */
